@@ -18,7 +18,7 @@ const DogSchema = new mongoose.Schema({
     trim: true,
   },
 
-  Age: {
+  age: {
     type: Number,
     min: 0,
     required: true,
